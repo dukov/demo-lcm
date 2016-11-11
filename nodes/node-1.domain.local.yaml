@@ -1,0 +1,12 @@
+configuration:
+    nova_config:
+        'DEFAULT/debug':
+            value: True
+
+    package:
+        'mc':
+            ensure: present
+    exec:
+        'something_weired':
+            command: '/bin/touch /tmp/weired'
+            unless: '/bin/test -f /tmp/weired'
