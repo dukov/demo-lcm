@@ -1,0 +1,7 @@
+configuration:
+    nova_config:
+        'DEFAULT/nova_test':
+            value: ttt_val
+    package:
+        'mc':
+            ensure: present
