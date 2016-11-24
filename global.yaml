@@ -1,0 +1,8 @@
+configuration:
+    nova_config:
+        'DEFAULT/nova_test':
+            value: global_param
+        'DEFAULT/nova_global_override':
+            value: global_param
+        'DEFAULT/nova_global':
+            value: global_param

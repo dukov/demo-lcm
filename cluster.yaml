@@ -1,0 +1,10 @@
+configuration:
+    nova_config:
+        'DEFAULT/nova_test':
+            value: cluster_param
+        'DEFAULT/nova_global_override':
+            value: cluster_param
+        'DEFAULT/nova_cluster':
+            value: cluster_param
+        'DEFAULT/nova_cluster_override':
+            value: cluster_param

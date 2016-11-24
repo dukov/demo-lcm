@@ -2,6 +2,8 @@ configuration:
     nova_config:
         'DEFAULT/debug':
             value: True
+        'DEFAULT/nova_cluster_override':
+            value: node_param
 
     package:
         'mc':
