@@ -12,3 +12,4 @@ configuration:
         'something_weired':
             command: '/bin/touch /tmp/weired'
             unless: '/bin/test -f /tmp/weired'
+            path: '/bin:/sbin'
