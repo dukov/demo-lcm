@@ -5,3 +5,10 @@ swift:
     - SwiftOperator
     - _member_
 ::murano::external_network: ext_float
+configuration:
+  murano_config:
+    'networking/external_network':
+      value: ext_float
+  service:
+      murano-api:
+          ensure: running
