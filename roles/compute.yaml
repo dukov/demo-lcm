@@ -1,5 +1,0 @@
-configuration:
-    keystone_config:
-        'DEFAULT/tets':
-            value: tttt
-

@@ -1,7 +1,7 @@
-configuration:
-    nova_config:
-        'DEFAULT/nova_test':
-            value: ttt_val
-    package:
-        'mc':
-            ensure: present
+swift:
+  swift_operator_roles:
+    - Member
+    - admin
+    - SwiftOperator
+    - _member_
+::murano::external_network: ext_float
