@@ -11,6 +11,12 @@ network_scheme:
   - action: add-br
     name: br-floating
     provider: ovs
+  - action: add-br
+    name: br-ext-wh
+    provider: ovs
+  - action: add-br
+    name: br-ext-float
+    provider: ovs
   - action: add-patch
     bridges:
     - br-floating
@@ -38,3 +44,9 @@ network_scheme:
   - action: add-port
     bridge: br-storage
     name: eth1.102
+  - action: add-port
+    bridge: br-br-ext-wh
+    name: eth1.300
+  - action: add-port
+    bridge: br-ext-float
+    name: eth1.600
