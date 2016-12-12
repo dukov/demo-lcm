@@ -1,3 +1,4 @@
+keystone::roles::admin::admin_project_domain: ldap
 swift:
   swift_operator_roles:
     - Member
